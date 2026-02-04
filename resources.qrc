@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>ui/icons/mouse-pointer-gray.svg</file>
+        <file>ui/icons/mouse-pointer-white.svg</file>
+        <file>ui/icons/circle-gray.svg</file>
+        <file>ui/icons/circle-white.svg</file>
+        <file>ui/icons/move-gray.svg</file>
+        <file>ui/icons/move-white.svg</file>
+        <file>ui/icons/square-gray.svg</file>
+        <file>ui/icons/square-white.svg</file>
+        <file>ui/icons/trash-gray.svg</file>
+        <file>ui/icons/trash-white.svg</file>
+        <file>ui/icons/atom-white.svg</file>
+        <file>ui/icons/pentagon-gray.svg</file>
+        <file>ui/icons/pentagon-white.svg</file>
+        <file>ui/icons/arrow-big-right-gray.svg</file>
+        <file>ui/icons/pause-gray.svg</file>
+        <file>ui/icons/play-gray.svg</file>
+        <file>ui/icons/rotate-ccw-gray.svg</file>
+        <file>ui/icons/sun-gray.svg</file>
+        <file>ui/icons/toggle-left-gray.svg</file>
+        <file>ui/icons/toggle-right-white.svg</file>
+        <file>ui/icons/grid-2x2-gray.svg</file>
+        <file>ui/icons/zoom-in-gray.svg</file>
+        <file>ui/icons/zoom-out-gray.svg</file>
+    </qresource>
+</RCC>
