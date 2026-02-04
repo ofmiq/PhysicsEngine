@@ -369,7 +369,7 @@ QPushButton:checked {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="deletToolButton">
+        <widget class="QPushButton" name="deleteToolButton">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -403,7 +403,7 @@ QPushButton:checked {
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="gridToolButton_4">
+        <widget class="QPushButton" name="zoomInButton">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -423,7 +423,7 @@ QPushButton:checked {
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="scaleLabel">
          <property name="styleSheet">
           <string notr="true">QLabel {
     background-color: transparent;
@@ -438,7 +438,7 @@ QPushButton:checked {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="gridToolButton_2">
+        <widget class="QPushButton" name="zoomOutButton">
          <property name="minimumSize">
           <size>
            <width>50</width>
@@ -647,7 +647,7 @@ color: #e8eaed;</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="stepBackButton">
+           <widget class="QPushButton" name="startPauseButton">
             <property name="minimumSize">
              <size>
               <width>36</width>

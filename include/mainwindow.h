@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QButtonGroup>
 #include <QMainWindow>
 #include <QTimer>
 
@@ -22,8 +23,27 @@ class MainWindow : public QMainWindow {
  private slots:
   void onFrame();
 
+  void onEditButtonToggled(bool checked);
+  void onPlayButtonToggled(bool checked);
+  void onStartPauseButtonToggled(bool checked);
+
+  void onFrictionSliderChanged();
+  void onRestitutionSliderChanged();
+
+  void onZoomInButtonClicked();
+  void onZoomOutButtonClicked();
+
+ private:
+  void setupButtonGroups();
+  void setupConnections();
+
  private:
   Ui::MainWindow* ui;
+
+  QButtonGroup* toolButtonGroup;
+  QButtonGroup* modeButtonGroup;
+  QButtonGroup* tabButtonGroup;
+
   Engine* engine;
   QTimer frameTimer;
 };
